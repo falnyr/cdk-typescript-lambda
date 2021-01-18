@@ -1,6 +1,6 @@
 import { expect as expectCDK, matchTemplate, MatchStyle } from '@aws-cdk/assert';
 import * as cdk from '@aws-cdk/core';
-import * as MyWidgetService from '../lib/my_widget_service-stack';
+import * as MyWidgetService from '../lib/stack';
 
 test('Empty Stack', () => {
     const app = new cdk.App();
